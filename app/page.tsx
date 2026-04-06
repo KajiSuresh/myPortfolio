@@ -7,6 +7,7 @@ import { ProjectsSection } from '@/components/ProjectsSection'
 import { ExperienceSection } from '@/components/ExperienceSection'
 import { ContactSection } from '@/components/ContactSection'
 import { Footer } from '@/components/Footer'
+import { Toaster } from '@/components/ui/toaster'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <ExperienceSection />
       <ContactSection />
       <Footer />
+      <Toaster />
     </main>
   )
 }
