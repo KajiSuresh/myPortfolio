@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils'
 interface NeonTextProps extends React.HTMLAttributes<HTMLSpanElement> {
   variant?: 'cyan' | 'purple' | 'pink'
   children: React.ReactNode
-  as?: keyof React.ReactHTML
+  as?: React.ElementType
 }
 
 export function NeonText({

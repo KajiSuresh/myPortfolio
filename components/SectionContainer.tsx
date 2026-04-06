@@ -1,7 +1,7 @@
 import React from 'react'
 import { cn } from '@/lib/utils'
 
-interface SectionContainerProps extends React.HTMLAttributes<HTMLSection> {
+interface SectionContainerProps extends React.HTMLAttributes<HTMLElement> {
   children: React.ReactNode
   className?: string
   id?: string
