@@ -30,11 +30,11 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-lg flex items-center justify-center">
             <NeonText variant="cyan" className="text-white font-bold text-sm">
-              V
+              SK
             </NeonText>
           </div>
           <NeonText variant="cyan" className="text-xl font-bold">
-            Portfolio
+            KAJEEPAN SURESH
           </NeonText>
         </div>
 

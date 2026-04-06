@@ -8,11 +8,11 @@ import { ExternalLink,  } from 'lucide-react'
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard.',
-    tech: ['Next.js', 'React', 'Stripe', 'PostgreSQL'],
+    title: 'CityNavigator - Smart City Guide',
+    description: 'A concise guide offering practical tips, curated info, and insights to help tourists, students, and professionals navigate city life easily.',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'ShadCN UI'],
     image: '🛍️',
-    link: '#',
+    link: 'https://smartcity-j.vercel.app/',
     github: '#',
     featured: true,
   },

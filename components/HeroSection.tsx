@@ -24,9 +24,10 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            I'm a <NeonText variant="cyan">Creative</NeonText> Developer
+            I'm a <br/> <NeonText variant="cyan">Creative Developer</NeonText> and <br/> 
+            <NeonText variant="cyan">Creative Designer</NeonText>
             <br />
-            crafting <NeonText variant="purple">digital experiences</NeonText>
+            crafting <NeonText variant="purple">modern web experiences.</NeonText>
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">

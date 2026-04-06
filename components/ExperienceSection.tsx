@@ -5,36 +5,13 @@ import { GlassCard } from './GlassCard'
 import { NeonText } from './NeonText'
 
 const experiences = [
+  
   {
-    role: 'Senior Full-Stack Developer',
-    company: 'Tech Innovators Inc.',
-    period: '2022 - Present',
+    role: 'Graphic Designer & Video Editor',
+    company: 'IBC Tamil Jaffna.',
+    period: '2024 - Present',
     description:
-      'Led development of customer-facing web applications using React and Next.js. Architected scalable backend solutions with Node.js and PostgreSQL. Mentored junior developers and established best practices.',
-    achievements: [
-      'Increased application performance by 40%',
-      'Led migration from legacy codebase to modern stack',
-      'Implemented CI/CD pipelines reducing deployment time by 60%',
-    ],
-  },
-  {
-    role: 'Full-Stack Developer',
-    company: 'Digital Solutions Ltd.',
-    period: '2020 - 2022',
-    description:
-      'Developed and maintained full-stack web applications for various clients. Implemented responsive UI designs and RESTful APIs. Collaborated with product and design teams.',
-    achievements: [
-      'Delivered 15+ projects on time and within budget',
-      'Improved API response time by 35%',
-      'Established design system for consistent UI',
-    ],
-  },
-  {
-    role: 'Frontend Developer',
-    company: 'StartUp Hub Co.',
-    period: '2019 - 2020',
-    description:
-      'Built interactive user interfaces using React and Vue.js. Optimized website performance and accessibility. Worked with REST APIs and real-time data.',
+      'Managed digital visuals, applied Design principles, created motion graphics, optimized assets, and collaborated in deadlines.',
     achievements: [
       'Reduced bundle size by 50%',
       'Achieved 98% accessibility score',
@@ -82,7 +59,7 @@ export function ExperienceSection() {
                 <GlassCard neonBorder={index % 3 === 0 ? 'cyan' : index % 3 === 1 ? 'purple' : 'pink'} className="p-8">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                     <div>
-                      <h3 className="text-2xl font-bold text-foreground">{exp.role}</h3>
+                      <h3 className="text-xl font-bold text-foreground">{exp.role}</h3>
                       <p className="text-primary font-semibold mt-1">{exp.company}</p>
                     </div>
                     <div className="text-right">
@@ -119,26 +96,26 @@ export function ExperienceSection() {
             <GlassCard neonBorder="purple" className="p-8">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h4 className="text-xl font-bold text-foreground">Bachelor of Science in Computer Science</h4>
-                  <p className="text-primary font-semibold mt-2">University of Technology</p>
+                  <h4 className="text-xl font-bold text-foreground">Higher Diploma (HD) in Computing & Software Engineering</h4>
+                  <p className="text-primary font-semibold mt-2">Cardiff Metropolitan University</p>
                 </div>
                 <span className="text-3xl">🎓</span>
               </div>
               <p className="text-muted-foreground">
-                Graduated with honors. Specialized in web development and software engineering. GPA: 3.8/4.0
+                Completed a comprehensive IT program covering computer architecture, programming, system analysis, databases, web and mobile development, networking, cybersecurity, business analytics, and project management.
               </p>
             </GlassCard>
 
             <GlassCard neonBorder="pink" className="p-8">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h4 className="text-xl font-bold text-foreground">Advanced Certification in Full-Stack Development</h4>
-                  <p className="text-accent font-semibold mt-2">Tech Academy Online</p>
+                  <h4 className="text-xl font-bold text-foreground">BSc (Hons) Software Engineering</h4>
+                  <p className="text-accent font-semibold mt-2">Cardiff Metropolitan University</p>
                 </div>
                 <span className="text-3xl">📜</span>
               </div>
               <p className="text-muted-foreground">
-                Completed comprehensive full-stack bootcamp covering MERN stack, databases, DevOps, and best practices.
+               Completed an advanced IT curriculum covering professional ethics, programming, analytics, business intelligence, computational intelligence, and development projects.
               </p>
             </GlassCard>
           </div>
