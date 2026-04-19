@@ -8,9 +8,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Neon Cyberpunk',
+  title: 'KajeepanSuresh',
   description: 'A stunning neon cyberpunk portfolio showcasing projects, skills, and experience',
-  generator: 'v0.app',
   themeColor: '#00d4ff',
   viewport: {
     width: 'device-width',

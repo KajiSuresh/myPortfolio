@@ -13,21 +13,23 @@ const experiences = [
     description:
       'Managed digital visuals, applied Design principles, created motion graphics, optimized assets, and collaborated in deadlines.',
     achievements: [
-      'Reduced bundle size by 50%',
-      'Achieved 98% accessibility score',
-      'Implemented real-time features using WebSockets',
+      'Managed digital production workflows with consistent branding',
+      'Applied UI/UX to enhance engagement and retention',
+      'Created motion graphics using Adobe After Effects',
+      'Designed optimized assets to boost performance metrics',
+      'Collaborated in fast-paced, deadline-driven environments'
     ],
   },
   {
-    role: 'Junior Web Developer',
-    company: 'Web Agency Plus',
-    period: '2018 - 2019',
+    role: 'Front-End Developer',
+    company: 'Xelonsoft',
+    period: '2024 - 2024',
     description:
       'Started career developing static and dynamic websites. Learned frontend fundamentals and best practices. Supported senior developers in project delivery.',
     achievements: [
-      'Completed 20+ website projects',
-      'Mastered HTML, CSS, and JavaScript',
-      'Gained experience with WordPress and custom CMS',
+      'Designed responsive web & mobile interfaces with optimized performance',
+      'Managed multiple websites with bug fixes and feature updates',
+      'Collaborated with teams to deliver scalable solutions',
     ],
   },
 ]

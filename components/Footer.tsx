@@ -20,11 +20,11 @@ export function Footer() {
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-lg flex items-center justify-center">
                 <NeonText variant="cyan" className="text-white font-bold text-sm">
-                  V
+                  SK
                 </NeonText>
               </div>
               <NeonText variant="cyan" className="text-lg font-bold">
-                Portfolio
+                SureshKajeepan
               </NeonText>
             </div>
             <p className="text-muted-foreground">
@@ -63,7 +63,7 @@ export function Footer() {
                 <span className="text-muted-foreground text-sm">Consulting</span>
               </li>
               <li>
-                <span className="text-muted-foreground text-sm">Optimization</span>
+                <span className="text-muted-foreground text-sm">Designing</span>
               </li>
             </ul>
           </div>

@@ -10,19 +10,19 @@ import { Mail } from 'lucide-react'
 const socialLinks = [
   {
     label: 'Email',
-    href: 'mailto:hello@example.com',
+    href: 'mailto:sureshkajeepan@gmail.com',
     icon: Mail,
     color: 'cyan',
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com',
+    href: 'https://www.linkedin.com/in/suresh-kajeepan-965953252/',
     // icon: Linkedin,
     color: 'purple',
   },
   {
     label: 'GitHub',
-    href: 'https://github.com',
+    href: 'https://github.com/KajiSuresh',
     // icon: Github,
     color: 'pink',
   },
@@ -142,17 +142,17 @@ export function ContactSection() {
             <div className="space-y-4">
               <div>
                 <p className="text-sm text-muted-foreground mb-2">Email</p>
-                <a href="mailto:hello@example.com" className="text-primary hover:text-cyan-300 transition-colors">
-                  hello@example.com
+                <a href="mailto:sureshkajeepan@gmail.com" className="text-primary hover:text-cyan-300 transition-colors">
+                  Sureshkajeepan@gmail.com
                 </a>
               </div>
               <div>
                 <p className="text-sm text-muted-foreground mb-2">Location</p>
-                <p className="text-foreground">San Francisco, CA</p>
+                <p className="text-foreground">Kalaimany Road, Kaddapirai,Jaffna.</p>
               </div>
               <div>
                 <p className="text-sm text-muted-foreground mb-2">Availability</p>
-                <p className="text-foreground">Open to freelance & full-time roles</p>
+                <p className="text-foreground">Open full-time roles</p>
               </div>
             </div>
           </GlassCard>
